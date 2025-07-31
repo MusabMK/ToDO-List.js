@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  max-width: 300px;
+  margin: 20px auto;
+  
+}
+
+h1 {
+    text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 30px;
+  }
+
+button {
+  background: darkgreen;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+button:hover {
+  background: lightgreen;
+}
+
+#task-list li {
+  background: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+#task-list li button {
+  background: red;
+  width: auto;
+  margin-left: auto;
+}
